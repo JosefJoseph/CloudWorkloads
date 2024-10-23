@@ -40,7 +40,7 @@ jobs:
 
       # Docker Compose starten
       - name: Start Docker Compose
-        run: docker-compose up
+        run: docker-compose up -d
 
       # Optional: Tests oder andere Schritte ausführen
       - name: Run Tests
